@@ -1,0 +1,88 @@
+/*#region reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*#endregion*/
+
+/*#region title area*/
+#title-section {
+  height:15vh;
+  width:100%;
+  max-width: 100%;
+  background-color: green;
+}
+/*#endregion*/
+
+/*#region album-section*/
+#album-section {
+  margin-left:0;
+  width:100%;
+  max-width: 100%;
+  height:150vh;
+  background-color: cadetblue;
+}
+
+/*#region album-grid*/
+#album-grid {
+  display:grid;
+  grid-template-rows: 17vw 17vw 17vw 17vw 17vw;
+  grid-template-columns: 17vw 17vw 17vw 17vw 17vw;
+  grid-column-gap: 2vw;
+  grid-row-gap:2vw;
+  margin-left:3vw;
+}
+
+#album-1 {
+  grid-row:1;
+  grid-column:1;
+  background-color: red;
+  width:100%;
+  height:100%;
+  position:relative;
+}
+#album-1-image {
+  position:absolute;
+  width:100%;
+  height:100%;
+  z-index:0;
+}
+#album-1-image img {
+  width:100%;
+  height:100%;
+}
+
+#album-1-text {
+  position:absolute;
+  width:100%;
+  height:100%;
+  background-color: black;
+  z-index:-1;
+}
+
+#album-2 {
+  grid-row:1;
+  grid-column:3;
+  background-color: red;
+}
+#album-3 {
+  grid-row:1;
+  grid-column:5;
+  background-color: red;
+  height:100%;
+  width:100%;
+}
+#album-4 {
+  grid-row:2;
+  grid-column:2;
+  background-color: red;
+}
+#album-5 {
+  grid-row:2;
+  grid-column:4;
+  background-color: red;
+}
+/*#endregion*/
+/*#endregion*/
+
