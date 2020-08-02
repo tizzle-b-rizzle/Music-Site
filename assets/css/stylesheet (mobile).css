@@ -249,14 +249,14 @@
     }
     /*#endregion*/
     /*#region album-section*/
-#album-section {
-    margin-left:0;
-    padding-top:3vh;
-    width:100%;
-    max-width: 100%;
-    height:850vh;
-    background-color: cadetblue;
-  }
+    #album-section {
+        margin-left:0;
+        padding-top:3vh;
+        width:100%;
+        max-width: 100%;
+        height:850vh;
+        background-color: cadetblue;
+    }
   
   /*#region album-grid*/
   #album-grid {
@@ -505,11 +505,11 @@
   }
   .album-text h1 {
     font-size: 15px;
-    padding-top:0;
+    padding-top:70px;
   }
   
   .album-text p {
-    padding-top:0;
+    padding-top:30px;
   }
   /*#endregion*/
   
