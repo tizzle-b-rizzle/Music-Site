@@ -265,7 +265,7 @@
     grid-auto-columns: 40vw;
     grid-column-gap: 4vw;
     grid-row-gap:4vw;
-    margin-left:6vw;
+    margin-left:8vw;
   }
   /*#endregion*/
   /*#region the albums*/
@@ -505,7 +505,7 @@
   }
   .album-text h1 {
     font-size: 15px;
-    padding-top:70px;
+    padding-top:50px;
   }
   
   .album-text p {
