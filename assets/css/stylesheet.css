@@ -17,7 +17,7 @@
 }
 /*#region title area*/
 #title-section {
-  height:15vh;
+  height:13vh;
   width:100%;
   max-width: 100%;
   background-color: green;
@@ -27,7 +27,7 @@
 /*#region album-section*/
 #album-section {
   margin-left:0;
-  padding-top:5vh;
+  padding-top:3vh;
   width:100%;
   max-width: 100%;
   height:820vh;

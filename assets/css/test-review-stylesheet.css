@@ -1,0 +1,62 @@
+/*#region reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #album-review-page {
+      width:100vw;
+      min-height:100vh;
+      display:flex;
+  }
+
+  #left-section {
+      flex:3;
+      width:100%;
+      min-height:100%;
+      background-color: green;
+      text-align:center;
+      padding-top:3vh;
+  }
+
+  #left-section h1 {
+    font-size: 35px;
+}
+
+  #left-section img {
+      height:20vw;
+      width:20vw;
+      padding-top:3vh;
+  }
+
+  #left-section p {
+    padding-top:5vh;
+    font-size: 25px;
+}
+
+  #right-section {
+      flex:7;
+      width:100%;
+      min-height:100%;
+      background-color: yellow;
+      text-align: center;
+      padding-top:3vh;
+  }
+
+  #right-section h1 {
+      font-size:35px;
+  }
+
+  #tracklist-section {
+      margin-top:5vh;
+      margin-left:6vh;
+      height:auto;
+      width:25vw;
+      text-align: center;
+      font-size: 18px;
+  }
+
+  #tracklist-section ol {
+      display: inline-block; /*this along with the above text-align centers the list*/
+  }
