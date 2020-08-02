@@ -253,7 +253,7 @@
 .album{
   height:100%;
   width:100%;
-  position:relative;
+  position:relative;cursor: pointer;
 }
 .album-text {
   position:absolute;
@@ -272,6 +272,7 @@
 }
 .album-image:hover {
   opacity:0;
+  transition: 0.4s;
 }
 .album-image img {
   width:100%;
