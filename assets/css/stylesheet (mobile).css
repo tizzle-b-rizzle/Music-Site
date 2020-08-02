@@ -261,8 +261,8 @@
   /*#region album-grid*/
   #album-grid {
     display:grid;
-    grid-auto-rows: 17vw;
-    grid-auto-columns: 17vw;
+    grid-auto-rows: 30vw;
+    grid-auto-columns: 30vw;
     grid-column-gap: 2vw;
     grid-row-gap:2vw;
     margin-left:3vw;
