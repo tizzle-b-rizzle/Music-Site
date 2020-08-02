@@ -255,7 +255,8 @@
 .album{
   height:100%;
   width:100%;
-  position:relative;cursor: pointer;
+  position:relative
+  ;cursor: pointer;
 }
 .album-text {
   position:absolute;
