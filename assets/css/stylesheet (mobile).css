@@ -263,9 +263,9 @@
     display:grid;
     grid-auto-rows: 40vw;
     grid-auto-columns: 40vw;
-    grid-column-gap: 2vw;
-    grid-row-gap:2vw;
-    margin-left:8vw;
+    grid-column-gap: 4vw;
+    grid-row-gap:4vw;
+    margin-left:6vw;
   }
   /*#endregion*/
   /*#region the albums*/
