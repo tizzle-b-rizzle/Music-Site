@@ -20,10 +20,14 @@
     }
     /*#region title area*/
     #title-section {
-        height:20vh;
+        height:15vh;
         width:100%;
         max-width: 100%;
         background-color: green;
+        text-align:center;
+    }
+    #title-section h1 {
+      padding-top:3vh;
     }
     /*#endregion*/
     /*#region album-section*/
@@ -534,7 +538,7 @@
   }
   
   .album-text p {
-    font-size: 3.5vw;
+    font-size: 3vw;
     padding-top:5%;
   }
   /*#endregion*/
