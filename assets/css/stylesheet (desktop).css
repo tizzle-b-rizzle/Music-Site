@@ -22,7 +22,17 @@
   height:13vh;
   width:100%;
   max-width: 100%;
-  background-color: green;
+  color:white;
+  text-align:center;
+  animation: background-change 10s infinite;
+}
+@keyframes background-change {
+  0% {background-color: #b8b4a9;}
+  50% {background-color: #dbd7ca;}
+  100% {background-color: #b8b4a9;}
+}
+#title-section h1 {
+  padding-top:2vh;
 }
 /*#endregion*/
 
@@ -33,7 +43,7 @@
   width:100%;
   max-width: 100%;
   height:850vh;
-  background-color: cadetblue;
+  background-color: black;
 }
 
 /*#region album-grid*/
