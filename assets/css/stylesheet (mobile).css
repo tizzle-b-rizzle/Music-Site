@@ -27,7 +27,11 @@
         text-align:center;
     }
     #title-section h1 {
+      font-size:20px;
       padding-top:3vh;
+    }
+    #title-section p {
+      font-size:16px;
     }
     /*#endregion*/
     /*#region album-section*/
