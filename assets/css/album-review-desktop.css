@@ -36,13 +36,17 @@
       padding-top:3vh;
   }
 
-  #left-section p {
-    padding-top:5vh;
+  #left-section h2 {
+    padding-top:3vh;
     font-size: 25px;
+}
+  #left-section h3 {
+    padding-top:2vh;
+    font-size: 20px;
 }
 
 #tracklist-section {
-    margin-top:5vh;
+    margin-top:1vh;
     margin-left:6vh;
     height:auto;
     width:25vw;
@@ -79,6 +83,7 @@
   #right-section a {
       display:inline-block;
       line-height: 90px;
+      font-size: 25px;
   }
 
   #image-section {
