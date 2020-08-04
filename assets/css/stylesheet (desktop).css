@@ -27,9 +27,9 @@
   animation: background-change 10s infinite;
 }
 @keyframes background-change {
-  0% {background-color: #b8b4a9;}
-  50% {background-color: #dbd7ca;}
-  100% {background-color: #b8b4a9;}
+  0% {background-color: #050505;}
+  50% {background-color: #1c1b1b;}
+  100% {background-color: #050505;}
 }
 #title-section h1 {
   padding-top:2vh;
@@ -43,7 +43,7 @@
   width:100%;
   max-width: 100%;
   height:850vh;
-  background-color: black;
+  animation: background-change 10s infinite;
 }
 
 /*#region album-grid*/
