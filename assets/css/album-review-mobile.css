@@ -1,0 +1,71 @@
+/*#region reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #album-review-page-mobile {
+      width:100%;
+      height:auto;
+      text-align: center;
+  }
+#album-review-page-mobile h1 {
+    text-align: center;
+    margin-top:2vh;
+    font-size: 26px;
+}
+#album-review-page-mobile h2 {
+    margin-top:2vh;
+    font-size: 22px;
+}
+#album-review-page-mobile h3 {
+    margin-top:2vh;
+    font-size: 20px;
+}
+  #album-review-page-mobile img {
+      height:70vw;
+      width:70vw;
+      margin-left: 0vw;
+      margin-top:3vh;
+  }
+  #tracklist-section {
+    margin-top:1vh;
+    margin-left:15vh;
+    height:auto;
+    width:60vw;
+    font-size: 18px;
+}
+#tracklist-section ol {
+    display: inline-block; /*this along with the above text-align centers the list*/
+}
+#review-section {
+        width:80%;
+        min-height: 50vh;
+        height:auto;
+        margin-top:2vh;
+        margin-left: 10vw;
+        background-color: blue;
+
+}
+#album-review-page-mobile a {
+    display:inline-block;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#image-section-mobile {
+    width:100%;
+    min-width: 100%;
+    min-height: 50vh;
+    height:50vh;
+    margin-top: 10px;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows:100%;
+    background-color: brown;
+}
+#image-section-mobile img {
+    width:100%;
+    padding-left: 0%;
+    height:90%;
+}
