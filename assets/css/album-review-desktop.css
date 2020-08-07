@@ -6,11 +6,11 @@
   }
 
   #album-review-page-desktop {
-      width:100vw;
+      width:100%;
       height:auto;
       min-height:100vh;
       display:flex;
-      z-index:-10;
+      z-index:10;
       position: absolute;
       left:0;
       top:0;
