@@ -7,8 +7,9 @@
 /*#endregion*/
 #entire-page-container {
   position:relative;
+  max-width: 100%;
   width:100%;
-  height:100%;
+  height:auto;
 }
 #normal-album-page {
   top:0;
@@ -17,8 +18,7 @@
   width:100%;
   height:100%;
   z-index:1;
-  display:none;
-  
+  display: none;
 }
 #the-reviews {
   top:0;
