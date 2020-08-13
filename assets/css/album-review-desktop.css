@@ -69,7 +69,40 @@
       text-align: center;
       padding-top:3vh;
   }
-
+  #exit-cross {
+      position: absolute;
+      cursor: pointer;
+      height:40px;
+      width:40px;
+      top:10px;
+      right:20px;
+      background-color: black;
+  }
+  #lines {
+      position:relative;
+      height:100%;
+      width:100%;
+  }
+  #top-line {
+      position: absolute;
+      background-color:white;
+      top:17px;
+      left:5px;
+      width:30px;
+      height:5px;
+      z-index: 10;
+      transform: rotate(45deg)
+  }
+  #bottom-line {
+      position: absolute;
+      background-color:white;
+      top:17px;
+      left:5px;
+      width:30px;
+      height:5px;
+      z-index: 10;
+      transform: rotate(-45deg)
+  }
   #right-section h1 {
       font-size:35px;
   }
