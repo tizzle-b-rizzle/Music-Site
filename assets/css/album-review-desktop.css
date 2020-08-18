@@ -5,17 +5,18 @@
     box-sizing: border-box;
   }
 
-  #album-review-page-desktop-album-1 {
+  .album-review {
       width:100%;
       max-width:100%;
       height:auto;
       min-height:100vh;
-      display:flex;
+      display:none;
       z-index:10;
       position: absolute;
       left:0;
       top:0;
   }
+
 
   /*#region left section*/
   #left-section {
