@@ -37,7 +37,7 @@
   animation: background-change 10s infinite;
 }
 @keyframes background-change {
-  0% {background-color: #050505;}
+  0% {background-color: yellow;} 
   50% {background-color: #1c1b1b;}
   100% {background-color: #050505;}
 }
