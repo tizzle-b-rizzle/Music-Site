@@ -94,6 +94,7 @@
   min-height: 200px;
   height: 200px;
   margin-top: 10px;
+  padding-bottom: 10px;
   display: grid;
   grid-template-columns: 45% 45%;
   grid-column-gap: 5%;
