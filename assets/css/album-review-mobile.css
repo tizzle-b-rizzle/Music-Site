@@ -1,39 +1,81 @@
+.album-review-mobile {
+ display:none;
+}
 @media screen and (max-width: 600px) {
-#album-review-page-mobile {
+.album-review-mobile {
   width: 100%;
+  min-width: 100%;
   height: auto;
   text-align: center;
+  z-index:10;
+  position: absolute;
+  left:0;
+  top:0;
+  background-color: yellow;
 }
-#album-review-page-mobile h1 {
+#exit-cross {
+  position: absolute;
+  cursor: pointer;
+  height:40px;
+  width:40px;
+  top:10px;
+  right:20px;
+  background-color: black;
+}
+#lines {
+  position:relative;
+  height:100%;
+  width:100%;
+}
+#top-line {
+  position: absolute;
+  background-color:white;
+  top:17px;
+  left:5px;
+  width:30px;
+  height:5px;
+  z-index: 10;
+  transform: rotate(45deg)
+}
+#bottom-line {
+  position: absolute;
+  background-color:white;
+  top:17px;
+  left:5px;
+  width:30px;
+  height:5px;
+  z-index: 10;
+  transform: rotate(-45deg)
+}
+
+.album-review-mobile h1 {
   text-align: center;
   margin-top: 2vh;
   font-size: 26px;
 }
-#album-review-page-mobile h2 {
+.album-review-mobile h2 {
   margin-top: 2vh;
   font-size: 22px;
 }
-#album-review-page-mobile h3 {
+.album-review-mobile h3 {
   margin-top: 2vh;
   font-size: 20px;
 }
-#album-review-page-mobile img {
+.album-review-mobile img {
   height: 70vw;
   width: 70vw;
   margin-left: 0vw;
   margin-top: 3vh;
 }
-#tracklist-section {
+#tracklist-section-mobile ol {
+  text-align: center;
   margin-top: 1vh;
-  margin-left: 15vh;
   height: auto;
   width: 60vw;
   font-size: 18px;
+  display:inline-block;
 }
-#tracklist-section ol {
-  display: inline-block; /*this along with the above text-align centers the list*/
-}
-#review-section {
+#review-section-mobile {
   width: 80%;
   min-height: 50vh;
   height: auto;
@@ -41,7 +83,7 @@
   margin-left: 10vw;
   background-color: blue;
 }
-#album-review-page-mobile a {
+.album-review-mobile a {
   display: inline-block;
   margin-top: 20px;
   font-size: 20px;
