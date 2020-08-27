@@ -112,9 +112,11 @@
       width:80%;
       min-height: 50vh;
       height:auto;
+      padding:20px;
       margin-top:2vh;
       margin-left: 7vw;
       background-color: blue;
+      text-align: left;
   }
   #right-section a {
       display:inline-block;
