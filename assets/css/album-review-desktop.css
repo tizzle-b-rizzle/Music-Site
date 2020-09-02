@@ -135,6 +135,7 @@
       grid-row:100%;
       grid-column-gap: 5%;
       padding-left:3vw;
+      margin-bottom: 20px;
   }
   #image-section-desktop img {
       width:100%;
