@@ -35,6 +35,7 @@
   color:white;
   text-align:center;
   animation: background-change 10s infinite;
+  font-family: 'Righteous', cursive;
 }
 @keyframes background-change {
   0% {background-color: #050505;} 

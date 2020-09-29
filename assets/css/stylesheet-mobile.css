@@ -37,6 +37,7 @@
     color: white;
     text-align: center;
     animation: background-change 10s infinite;
+    font-family: 'Righteous', cursive;
   }
   #title-section h1 {
     font-size: 20px;

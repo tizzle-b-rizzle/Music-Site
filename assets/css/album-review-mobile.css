@@ -11,7 +11,12 @@
   position: absolute;
   left:0;
   top:0;
-  background-color: yellow;
+  color:white;
+  background-color: black;
+}
+@font-face {
+  font-family: "junction";
+  src: url(https://www.theleagueofmoveabletype.com/junction)
 }
 #exit-cross {
   position: absolute;
@@ -20,7 +25,7 @@
   width:40px;
   top:10px;
   right:20px;
-  background-color: black;
+  background-color:white;
 }
 #lines {
   position:relative;
@@ -29,7 +34,7 @@
 }
 #top-line {
   position: absolute;
-  background-color:white;
+  background-color:black;
   top:17px;
   left:5px;
   width:30px;
@@ -39,7 +44,7 @@
 }
 #bottom-line {
   position: absolute;
-  background-color:white;
+  background-color:black;
   top:17px;
   left:5px;
   width:30px;
@@ -74,6 +79,7 @@
   width: 60vw;
   font-size: 18px;
   display:inline-block;
+  font-family: 'Cousine', monospace;
 }
 #review-section-mobile {
   width: 80%;
@@ -82,8 +88,9 @@
   height: auto;
   margin-top: 2vh;
   margin-left: 10vw;
-  background-color: blue;
+  background-color: black;
   text-align:left;
+  font-family: 'Cousine', monospace;
 }
 .album-review-mobile a {
   display: inline-block;

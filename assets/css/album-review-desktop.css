@@ -15,6 +15,7 @@
       position: absolute;
       left:0;
       top:0;
+      color:white;
   }
 
 
@@ -23,9 +24,10 @@
       flex:3;
       width:100%;
       min-height:100%;
-      background-color: blue;
+      background-color: black;
       text-align:center;
       padding-top:3vh;
+      border:1px solid white;
   }
 
   #left-section h1 {
@@ -55,6 +57,7 @@
     text-align: center;
     font-size: 18px;
     padding-bottom:10px;
+    font-family: 'Cousine', monospace;
 }
 
 #tracklist-section ol {
@@ -67,9 +70,10 @@
       flex:7;
       width:100%;
       min-height:100%;
-      background-color: yellow;
+      background-color: black;
       text-align: center;
       padding-top:3vh;
+      border:1px solid white;
   }
   #exit-cross {
       position: absolute;
@@ -78,7 +82,7 @@
       width:40px;
       top:10px;
       right:20px;
-      background-color: black;
+      background-color: white;
   }
   #lines {
       position:relative;
@@ -87,7 +91,7 @@
   }
   #top-line {
       position: absolute;
-      background-color:white;
+      background-color:black;
       top:17px;
       left:5px;
       width:30px;
@@ -97,7 +101,7 @@
   }
   #bottom-line {
       position: absolute;
-      background-color:white;
+      background-color:black;
       top:17px;
       left:5px;
       width:30px;
@@ -115,8 +119,9 @@
       padding:20px;
       margin-top:2vh;
       margin-left: 7vw;
-      background-color: blue;
+      background-color: black;
       text-align: left;
+      font-family: 'Cousine', monospace;
   }
   #right-section a {
       display:inline-block;
@@ -129,7 +134,7 @@
       min-width: 20vh;
       height:25vh;
       margin-left: 7vw;
-      background-color: blue;
+      background-color: black;
       display: grid;
       grid-template-columns:20% 20% 20% 20%;
       grid-row:100%;
